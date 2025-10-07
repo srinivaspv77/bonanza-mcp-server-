@@ -19,3 +19,6 @@ from app.routes_catalog import router as catalog_router
 from app.routes_chart import router as chart_router
 app.include_router(catalog_router)
 app.include_router(chart_router)
+
+from app.routes_rpc import router as rpc_router
+app.include_router(rpc_router)
